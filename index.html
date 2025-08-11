@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Movie Finder</h1>
+    <input id="q" type="text" placeholder="Search movies..." />
+  </header>
+  <main>
+    <section>
+      <h2 id="status">Idle</h2>
+      <button id="retry" hidden>Retry</button>
+      <ul id="results"></ul>
+    </section>
+    <aside>
+      <h2>Favorites</h2>
+      <ul id="favorites"></ul>
+    </aside>
+  </main>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Movie Finder</h1>
+    <input id="q" type="text" placeholder="Search movies..." />
+  </header>
+
+  <!-- Wrapper centers the content -->
+  <div class="wrapper">
+    <main>
+      <section>
+        <h2 id="status">Idle</h2>
+        <button id="retry" hidden>Retry</button>
+        <ul id="results">
+          <li>
+            <img src="https://via.placeholder.com/100" alt="Movie Poster">
+            <p>Sample Movie</p>
+            <button>Add to Favorites</button>
+          </li>
+        </ul>
+      </section>
+
+      <aside>
+        <h2>Favorites</h2>
+        <ul id="favorites">
+          <li>
+            <img src="https://via.placeholder.com/100" alt="Favorite">
+            <p>Favorite Movie</p>
+            <button>Remove</button>
+          </li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
